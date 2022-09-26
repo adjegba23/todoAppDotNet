@@ -6,7 +6,8 @@ namespace ToDoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("It's just a test!");
+            TodoItem testItem = new TodoItem("Test Task", "Testing the task description field.", true);
+            Console.WriteLine(testItem.ToString());
         }
     }
 }
